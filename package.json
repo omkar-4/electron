@@ -1,6 +1,6 @@
 {
   "name": "electron",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "main.js",
   "scripts": {
     "start": "electron-forge start",
@@ -31,5 +31,12 @@
   "config": {
     "forge": "./forge.config.js"
   },
-  "repository": "https://github.com/omkar-4/electron"
+  "repository": "https://github.com/omkar-4/electron",
+  "publish": [
+    {
+      "provider": "github",
+      "owner": "omkar-4",
+      "repo": "electron"
+    }
+  ]
 }
